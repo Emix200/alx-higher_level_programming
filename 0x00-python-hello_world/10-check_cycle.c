@@ -5,7 +5,7 @@
  * @list: pointer to initial node
  * Return: success if circle else false
  */
-int check_cycle(listint_t *list);
+int check_cycle(listint_t *list)
 {
 	listint_t *current, *check;
 
